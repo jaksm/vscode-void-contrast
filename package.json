@@ -1,0 +1,27 @@
+{
+  "name": "void-contrast",
+  "displayName": "Void Contrast",
+  "description": "Dark High Contrast with the noise stripped out. Pure black, zero clutter.",
+  "version": "0.1.0",
+  "publisher": "jaksm",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Void Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/void-contrast-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT"
+}
